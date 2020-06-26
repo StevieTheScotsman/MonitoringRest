@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  monitoring_rest_api:
-    image: mtkmonacr.azurecr.io/monitoring_rest_api
+  monitoring-rest-api:
+    image: mtkmonacr.azurecr.io/monitoring-rest-api
     build: .
     ports:
       - 8080:80

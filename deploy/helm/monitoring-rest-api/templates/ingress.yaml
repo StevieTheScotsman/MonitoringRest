@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: monitoring-rest-api-ingress
+  namespace: monitoring
+  {{- with .Values.ingress.annotations }}
+  annotations:
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /api
+        backend:
+          serviceName: monitoring-rest-api
+          servicePort: {{ .Values.service.port }}
