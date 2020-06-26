@@ -7948,11 +7948,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\steve.curran\\source\\repos\\GitHubMonitoring\\Monitoring\\REST-API\\VS2019\\RegularNoAuth\\Monitoring\\Monitoring.csproj",
+      "projectUniqueName": "C:\\Users\\steve.curran\\source\\repos\\GitHubMonitoringRestApi\\MonitoringRestApi\\Monitoring.csproj",
       "projectName": "Monitoring",
-      "projectPath": "C:\\Users\\steve.curran\\source\\repos\\GitHubMonitoring\\Monitoring\\REST-API\\VS2019\\RegularNoAuth\\Monitoring\\Monitoring.csproj",
+      "projectPath": "C:\\Users\\steve.curran\\source\\repos\\GitHubMonitoringRestApi\\MonitoringRestApi\\Monitoring.csproj",
       "packagesPath": "C:\\Users\\steve.curran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\steve.curran\\source\\repos\\GitHubMonitoring\\Monitoring\\REST-API\\VS2019\\RegularNoAuth\\Monitoring\\obj\\",
+      "outputPath": "C:\\Users\\steve.curran\\source\\repos\\GitHubMonitoringRestApi\\MonitoringRestApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7965,7 +7965,8 @@
         "netcoreapp3.1"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/mitek/b2d8033b-e27b-4b57-8341-a3b98b71409c/_packaging/MezzanineDesignAccelerationNuget/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
